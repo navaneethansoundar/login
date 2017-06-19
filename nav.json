@@ -1,0 +1,57 @@
+{"navmenu":
+[
+          {
+            "address":"/aboutme",
+            "name":"ABOUTME"
+          },
+          {
+            "address":"/qualification",
+            "name":"QUALIFICATION"
+          },
+          {
+            "address":"/contactme",
+            "name":"CONTACTME"
+          }
+           ],
+          "navdrop":
+           [
+          {
+            "address":"/hobbies",
+            "name":"HOBBIES"
+          },
+          {
+            "address":"/extracurricular",
+            "name":"EXTRACURRICULAR ACTIVITIES"
+          },
+          {
+            "address":"/myprojects",
+            "name":"MY PROJECTS"
+          },
+          {
+            "address":"/Personal information",
+            "name":"PERSONAL INFORMATION"
+          }
+          ],
+          "navdrop1":
+          [
+          {
+            "address":"/software",
+            "name":"SOFTWARE SKILLS"
+          },
+           {
+            "address":"/leadership",
+            "name":"LEADERSHIP SKILLS"
+          },
+          {
+            "address":"/interpersonal",
+            "name":"INTERPERSONAL SKILLS"
+          },
+           {
+            "address":"/cocurricular",
+            "name":"CO-CURRICULAR ACTIVITIES"
+          },
+          {
+            "address":"/workshop",
+            "name":"WORKSHOP ATTENDED"
+          }
+          ]}
