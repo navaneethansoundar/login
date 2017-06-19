@@ -2,47 +2,47 @@ var app = angular.module("myApp", ["ngRoute",'ConApp','IntApp']);
 app.config(function($routeProvider,$locationProvider) {
     $routeProvider
     .when("/aboutme", {
-        templateUrl : "/views/about/mot.html"
+        templateUrl : "login/views/about/mot.html"
 
     })
     
      
      .when("/Home", {
-        templateUrl : "/views/home/home.html"
+        templateUrl : "login/views/home/home.html"
 
     })
        .when("/qualification", {
-        templateUrl : "/views/qualification/quali.html"
+        templateUrl : "login/views/qualification/quali.html"
 
     })
         .when("/contactme", {
-        templateUrl : "/views/contact/contact.html",
+        templateUrl : "login/views/contact/contact.html",
         controller:"myCtrl"
 
     })
           .when("/hobbies", {
-        templateUrl : "/views/hobby/hoby.html"
+        templateUrl : "login/views/hobby/hoby.html"
 
     })
           .when("/workshop", {
-        templateUrl : "/views/workshop/workshop.html"
+        templateUrl : "login/views/workshop/workshop.html"
 
     })
           .when("/interpersonal", {
-        templateUrl : "/views/interpersonal/inter.html",
+        templateUrl : "login/views/interpersonal/inter.html",
         controller:"showCtrl"
     })
            .when("/extracurricular", {
-        templateUrl : "/views/extracurricular/extra.html"
+        templateUrl : "login/views/extracurricular/extra.html"
 
     })
 
            .when("/software", {
-        templateUrl : "/views/software/software.html"
+        templateUrl : "login/views/software/software.html"
 
     })
            .when("/leadership", {
-        templateUrl : "/views/leadership/leader.html"
+        templateUrl : "login/views/leadership/leader.html"
 
     })
       $locationProvider.html5Mode(true);
