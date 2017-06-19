@@ -33,16 +33,16 @@ app.config(function($routeProvider,$locationProvider) {
         controller:"showCtrl"
     })
            .when("/extracurricular", {
-        templateUrl : "/extracurricular/extra.html"
+        templateUrl : "/views/extracurricular/extra.html"
 
     })
 
            .when("/software", {
-        templateUrl : "views/software/software.html"
+        templateUrl : "/views/software/software.html"
 
     })
            .when("/leadership", {
-        templateUrl : "views/leadership/leader.html"
+        templateUrl : "/views/leadership/leader.html"
 
     })
       $locationProvider.html5Mode(true);
