@@ -2,7 +2,7 @@ var app = angular.module("myApp", ["ngRoute",'ConApp','IntApp']);
 app.config(function($routeProvider,$locationProvider) {
     $routeProvider
     .when("/aboutme", {
-        templateUrl : "./views/about/mot.html"
+        templateUrl : "views/about/mot.html"
 
     })
     
