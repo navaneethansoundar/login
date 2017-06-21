@@ -13,7 +13,7 @@ app.config(function($routeProvider,$locationProvider) {
     })
      
         .when("/clickhere", {
-        templateUrl : "./resume.html"
+        templateUrl : "login/resume.html"
 
     })
     
