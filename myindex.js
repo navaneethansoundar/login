@@ -11,6 +11,12 @@ app.config(function($routeProvider,$locationProvider) {
         templateUrl : "login/views/home/home.html"
 
     })
+     
+        .when("/clickhere", {
+        templateUrl : "./resume.html"
+
+    })
+    
        .when("/qualification", {
         templateUrl : "login/views/qualification/quali.html"
 
